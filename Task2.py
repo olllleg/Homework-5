@@ -14,7 +14,7 @@ dataset = CustomImageDataset(root, transform=None, target_size=(224, 224))
 
 original_img, label = dataset[1]
 #вставил сюда себе для примера реализации от которого отталкиваться
-class Solarize:
+'''class Solarize:
     """Инвертирует пиксели выше порога."""
     def __init__(self, threshold=128):
         self.threshold = threshold
@@ -22,7 +22,7 @@ class Solarize:
         img_np = img.numpy()
         mask = img_np > self.threshold / 255.0
         img_np[mask] = 1.0 - img_np[mask]
-        return torch.from_numpy(img_np)
+        return torch.from_numpy(img_np)'''
 
 class RandomBrightness:
     """Регулирует яркость изображения случайным образом."""
