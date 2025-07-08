@@ -13,3 +13,36 @@
 ![image](https://github.com/user-attachments/assets/4169f0dc-3e71-44c6-b9a4-82891ccfaf51)
 ![image](https://github.com/user-attachments/assets/9e4f4e34-e3dc-4a83-b9df-f2a93293bb1c)
 ![image](https://github.com/user-attachments/assets/5853429e-272f-406a-89b5-70268c60b2a8)
+
+Результат задания номер 2:
+1)Случайная яркость
+![image](https://github.com/user-attachments/assets/72ab8595-b281-4c74-af20-2b5c0a56ef10)
+2)Мой блюр
+![image](https://github.com/user-attachments/assets/568edbc7-61dc-42a2-8bb8-b2b74775a556)
+для сравнения вот результат гауссового шума из extra_augs
+![image](https://github.com/user-attachments/assets/17d9e73d-71fa-4f12-9a2b-05f521cf8251)
+3)Случайный контраст
+![image](https://github.com/user-attachments/assets/a5f9fb22-c428-4bbb-ab61-de4f5d6c4c5b)
+Если сравнивать мои кастомные аугментации и аугментации и аугментации из extra_augs, то основным отличием будет то, что там настраиваются в основном вероятности срабатывания и пороговые значения (thresholds), а у меня регулируется интенсивность эффекта аугментации.
+
+Результат задания 3:
+Как мы можем видеть во всех классах одинаковое кол-во изображений, а именно 30 в каждом классе.
+распределение изображений по классам и общее распределение размеров:
+![image](https://github.com/user-attachments/assets/662f855a-bdce-4316-a880-0bb41cd39c58)
+График ширины изображений:
+![image](https://github.com/user-attachments/assets/c3916187-ba18-4bcf-bfb5-579ff27e6815)
+Распределение высот изображений(более равномерное:
+![image](https://github.com/user-attachments/assets/d228cbf6-6634-4c30-9c75-3af99d3f6c4c)
+
+Результат задания 4:
+
+
+Результат задания 5:
+Как мы можем увидеть на примере 2 последовательных запусков программы графики времени обработки и потребления памяти нестабильны, но очевидно прослеживается общая тенденция к сильному увеличению времени обработки и требуемой памяти, но рост всё же не экспоненциальный
+![image](https://github.com/user-attachments/assets/dff936cd-fbde-4a30-9178-b7ff6691beb5)
+Второй последовательный запуск
+![image](https://github.com/user-attachments/assets/eef74633-b317-4419-85c0-ad53248aeb58)
+Пример самих значений (для 3 запуска программы, это не те же, что на графиках)
+![image](https://github.com/user-attachments/assets/9de4488b-29f5-40d7-b37d-5b63f6fd9dae)
+
+
