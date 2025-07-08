@@ -22,7 +22,7 @@ class AugmentationPipeline:
         self.augmentations = {}
 
     def add_augmentation(self, name: str, aug: Any) -> None:
-        #добавляет аугментацию в конвейер
+        #добавляет аугментацию в пайплайн
         self.augmentations[name] = aug
     
     def remove_augmentation(self, name: str) -> None:
